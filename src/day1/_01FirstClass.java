@@ -1,6 +1,6 @@
 package day1;
 
-public class FirstClass {
+public class _01FirstClass {
     public static void main(String[] args) {
 
         System.out.println("Hello World");

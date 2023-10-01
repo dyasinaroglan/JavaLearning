@@ -1,6 +1,6 @@
 package day1;
 
-public class SecondClass {
+public class _02SecondClass {
 
     public static void main(String[] args) {
 
