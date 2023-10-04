@@ -2,7 +2,7 @@ package day3;
 
 public class _04MethodsExample {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //Intellij de psvm yazdığımızda main metodunu bize yazar
 
         /*
         Bir mağazada ürün satışı yapılıyor. Mağaza çalışanları, satış yapacakları ürünleri stoktan çıkarırken aşağıdaki kurallara göre iskonto uygulamaktadır:
@@ -60,4 +60,8 @@ public class _04MethodsExample {
         }
 
     }
+    // TODO: 4.10.2023 Return : bir yöntemden bir değeri geri döndürmektir.Hiç bir şey döndürmeyen bir yöntemde, dönüş türü olarak void olarak bildirilen bir yöntemde, return değimi gerekli değildir. 
+    // TODO: 4.10.2023 ancak veri döndüren bir yöntemde 'return' gereklidir.
+
+
 }
