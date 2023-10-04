@@ -27,9 +27,9 @@ public class _04MethodsExample {
 
         if (urunMiktar < 100) {
             indirimliFiyat = toplamFiyat;
-        } else if (urunMiktar >= 100 && urunMiktar < 500) {
+        } else if (urunMiktar < 500) {
             indirimliFiyat = toplamFiyat * 0.9;
-        } else if (urunMiktar >= 500 && urunMiktar < 1000) {
+        } else if (urunMiktar < 1000) {
             indirimliFiyat = toplamFiyat * 0.8;
         } else {
             indirimliFiyat = toplamFiyat * 0.7;
