@@ -36,6 +36,8 @@ public class _01MethodChallenge {
         System.out.println(name + " yüksek puan listesinde " + position + ". pozisyona girdi.");
     }
     public static int calculateHighScorePosition(int playerPoint){
+
+
         if(playerPoint >= 1000){
             return 1;
         }else if(playerPoint >= 500){
