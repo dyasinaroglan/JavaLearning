@@ -17,6 +17,7 @@ public class _03OverLoadingMethod {
 
         overLoadingMethod.yapKahve();
         overLoadingMethod.yapKahve("süt");
+        overLoadingMethod.yapKahve("süt", "şeker");
 
         System.out.println("New score is " +  calculatorScore("YASİN", 500));
         System.out.println("New score is " + calculatorScore(500));
