@@ -47,7 +47,6 @@ public class _03OverLoadingMethod {
     }
 
     public static int calculatorScore(int score) {
-
         return calculatorScore("Anonymous", score);
     }
     public static int calculatorScore() {
