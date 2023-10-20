@@ -20,7 +20,13 @@ public class _01OverLoadMethodsChallenge {
         return inc * 2.54;
     }
     public static double convertToCentimeters(int feet, int inc){
-        return convertToCentimeters(feet * 12 + inc);
+
+        //return convertToCentimeters((feet * 12) + inc);
+
+        int feetToInches = feet * 12;
+        int totalInches = feetToInches + inc;
+        double result = convertToCentimeters(totalInches);
+        return result;
     }
 
     public static void main(String[] args) {
